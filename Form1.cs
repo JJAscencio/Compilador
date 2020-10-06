@@ -111,15 +111,15 @@ namespace compilador1
                     token1 == "Mientras" |
                     token1 == "mientras" |
                     token1 == "Cambio" |
-                    token1 == "Cambio" |
+                    token1 == "cambio" |
                     token1 == "Caso" |
-                    token1 == "Caso" |
+                    token1 == "caso" |
                     token1 == "Repetir" |
                     token1 == "repetir" |
                     token1 == "Regresa" |
-                    token1 == "Regresa" |
+                    token1 == "regresa" |
                     token1 == "Leer" |
-                    token1 == "Leer" |
+                    token1 == "leer" |
                     token1 == "Mostrar" |
                     token1 == "mostrar" |
                     token1 == "Espera" |
@@ -127,7 +127,7 @@ namespace compilador1
                     token1 == "Limpia" |
                     token1 == "limpia" |
                     token1 == "Detener" |
-                    token1 == "Detener" |
+                    token1 == "detener" |
                     token1 == " " |
                     token1 == "\n" 
 
@@ -247,11 +247,11 @@ namespace compilador1
                 case "caso":
                     txtSalida.Text = txtSalida.Text + "cambio" + " " + "Instruccion Case\n";
                     break;
-                case "Y":
-                    txtSalida.Text = txtSalida.Text + "Y" + " " + "Instruccion IF\n";
+                case "Si":
+                    txtSalida.Text = txtSalida.Text + "Si" + " " + "Instruccion IF\n";
                     break;
-                case "y":
-                    txtSalida.Text = txtSalida.Text + "y" + " " + "Instruccion IF\n";
+                case "si":
+                    txtSalida.Text = txtSalida.Text + "si" + " " + "Instruccion IF\n";
                     break;
                 case "O":
                     txtSalida.Text = txtSalida.Text + "O" + " " + "Instruccion OR\n";
@@ -585,6 +585,11 @@ namespace compilador1
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataLexemas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

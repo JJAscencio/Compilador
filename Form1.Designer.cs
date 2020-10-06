@@ -59,18 +59,20 @@
             this.panel1.Controls.Add(this.guardarButton);
             this.panel1.Controls.Add(this.abrirButton);
             this.panel1.Controls.Add(this.txtSalida);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(16, 15);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(528, 412);
+            this.panel1.Size = new System.Drawing.Size(704, 507);
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // codigos
             // 
             this.codigos.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codigos.Location = new System.Drawing.Point(5, 65);
+            this.codigos.Location = new System.Drawing.Point(7, 80);
+            this.codigos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.codigos.Name = "codigos";
-            this.codigos.Size = new System.Drawing.Size(516, 146);
+            this.codigos.Size = new System.Drawing.Size(687, 179);
             this.codigos.TabIndex = 14;
             this.codigos.Text = "";
             // 
@@ -82,9 +84,10 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(483, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(644, 31);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(38, 34);
+            this.pictureBox1.Size = new System.Drawing.Size(51, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
@@ -95,9 +98,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(86, 4);
+            this.label1.Location = new System.Drawing.Point(115, 5);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 55);
+            this.label1.Size = new System.Drawing.Size(478, 69);
             this.label1.TabIndex = 9;
             this.label1.Text = "Compilador v1.0";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -107,9 +111,10 @@
             this.compilarButton.BackColor = System.Drawing.Color.Transparent;
             this.compilarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.compilarButton.Image = ((System.Drawing.Image)(resources.GetObject("compilarButton.Image")));
-            this.compilarButton.Location = new System.Drawing.Point(483, 217);
+            this.compilarButton.Location = new System.Drawing.Point(644, 267);
+            this.compilarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.compilarButton.Name = "compilarButton";
-            this.compilarButton.Size = new System.Drawing.Size(36, 34);
+            this.compilarButton.Size = new System.Drawing.Size(48, 42);
             this.compilarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.compilarButton.TabIndex = 7;
             this.compilarButton.TabStop = false;
@@ -120,9 +125,10 @@
             this.guardarButton.BackColor = System.Drawing.Color.Transparent;
             this.guardarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guardarButton.Image = ((System.Drawing.Image)(resources.GetObject("guardarButton.Image")));
-            this.guardarButton.Location = new System.Drawing.Point(3, 25);
+            this.guardarButton.Location = new System.Drawing.Point(4, 31);
+            this.guardarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guardarButton.Name = "guardarButton";
-            this.guardarButton.Size = new System.Drawing.Size(38, 34);
+            this.guardarButton.Size = new System.Drawing.Size(51, 42);
             this.guardarButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guardarButton.TabIndex = 5;
             this.guardarButton.TabStop = false;
@@ -133,9 +139,10 @@
             this.abrirButton.BackColor = System.Drawing.Color.Transparent;
             this.abrirButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.abrirButton.Image = ((System.Drawing.Image)(resources.GetObject("abrirButton.Image")));
-            this.abrirButton.Location = new System.Drawing.Point(47, 25);
+            this.abrirButton.Location = new System.Drawing.Point(63, 31);
+            this.abrirButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.abrirButton.Name = "abrirButton";
-            this.abrirButton.Size = new System.Drawing.Size(33, 34);
+            this.abrirButton.Size = new System.Drawing.Size(44, 42);
             this.abrirButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.abrirButton.TabIndex = 4;
             this.abrirButton.TabStop = false;
@@ -144,9 +151,10 @@
             // txtSalida
             // 
             this.txtSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalida.Location = new System.Drawing.Point(3, 257);
+            this.txtSalida.Location = new System.Drawing.Point(4, 316);
+            this.txtSalida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSalida.Name = "txtSalida";
-            this.txtSalida.Size = new System.Drawing.Size(516, 150);
+            this.txtSalida.Size = new System.Drawing.Size(687, 184);
             this.txtSalida.TabIndex = 2;
             this.txtSalida.Text = "";
             // 
@@ -160,14 +168,15 @@
             this.Lexema,
             this.Token});
             this.dataLexemas.GridColor = System.Drawing.SystemColors.ButtonFace;
-            this.dataLexemas.Location = new System.Drawing.Point(546, 77);
-            this.dataLexemas.Margin = new System.Windows.Forms.Padding(2);
+            this.dataLexemas.Location = new System.Drawing.Point(728, 95);
+            this.dataLexemas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataLexemas.Name = "dataLexemas";
             this.dataLexemas.ReadOnly = true;
             this.dataLexemas.RowTemplate.Height = 24;
-            this.dataLexemas.Size = new System.Drawing.Size(174, 347);
+            this.dataLexemas.Size = new System.Drawing.Size(232, 427);
             this.dataLexemas.TabIndex = 14;
             this.dataLexemas.Visible = false;
+            this.dataLexemas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataLexemas_CellContentClick);
             // 
             // Lexema
             // 
@@ -175,7 +184,7 @@
             this.Lexema.HeaderText = "Lexema";
             this.Lexema.Name = "Lexema";
             this.Lexema.ReadOnly = true;
-            this.Lexema.Width = 69;
+            this.Lexema.Width = 86;
             // 
             // Token
             // 
@@ -183,7 +192,7 @@
             this.Token.HeaderText = "Token";
             this.Token.Name = "Token";
             this.Token.ReadOnly = true;
-            this.Token.Width = 63;
+            this.Token.Width = 77;
             // 
             // timer1
             // 
@@ -192,11 +201,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 435);
+            this.ClientSize = new System.Drawing.Size(1195, 632);
             this.Controls.Add(this.dataLexemas);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Compilador v1.0";
             this.Load += new System.EventHandler(this.Form1_Load);

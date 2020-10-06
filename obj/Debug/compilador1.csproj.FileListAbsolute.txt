@@ -20,3 +20,13 @@ C:\Users\jonat\OneDrive\Desktop\MeedCompsl\obj\Debug\compilador1.csproj.Generate
 C:\Users\jonat\OneDrive\Desktop\MeedCompsl\obj\Debug\compilador1.csproj.CoreCompileInputs.cache
 C:\Users\jonat\OneDrive\Desktop\MeedCompsl\obj\Debug\compilador1.exe
 C:\Users\jonat\OneDrive\Desktop\MeedCompsl\obj\Debug\compilador1.pdb
+C:\Users\sergi\Desktop\Compilador\bin\Debug\compilador1.exe.config
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.exe
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.pdb
+C:\Users\sergi\Desktop\Compilador\bin\Debug\compilador1.exe
+C:\Users\sergi\Desktop\Compilador\bin\Debug\compilador1.pdb
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.csprojResolveAssemblyReference.cache
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.Form1.resources
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.Form2.resources
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.Properties.Resources.resources
+C:\Users\sergi\Desktop\Compilador\obj\Debug\compilador1.csproj.GenerateResource.Cache
