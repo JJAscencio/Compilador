@@ -99,7 +99,7 @@ namespace compilador1
                     token1 == "Menor o igual" |
                     token1 == "menor o igual" |
                     token1 == "Mayor o igual" |
-                    token1 == "mayor o igual" | 
+                    token1 == "mayor o igual" |
                     token1 == "Lo mismo" |
                     token1 == "lo mismo" |
                     token1 == "Y" |
@@ -127,7 +127,10 @@ namespace compilador1
                     token1 == "Limpia" |
                     token1 == "limpia" |
                     token1 == "Detener" |
-                    token1 == "Detener"
+                    token1 == "Detener" |
+                    token1 == " " |
+                    token1 == "\n" 
+
                     )
                 {
                     DescripciondelosToken(token1);
